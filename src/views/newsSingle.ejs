@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Rawal News</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_logo">Node.Js News</div>
+        <%- include('./partials/search.ejs') %>
+    </header>
+
+    <div class="wrapper">
+        <div class="news_single">
+            <a href="/">&larr; Back</a>
+            <img src="<%- article.urlToImage %>" alt="<%- article.title %>">
+            <h2><%- article.title %></h2>
+            <p><%- article.content %></p>
+        </div>
+    </div>
+</body>
+</html>
