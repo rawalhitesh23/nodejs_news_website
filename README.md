@@ -1,2 +1,2 @@
 # nodejs_news_website
-A news website created using news api. User can search and view news  
+A english news website created using news api. User can search any leatest news using related keyword.
